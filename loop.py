@@ -96,3 +96,142 @@
 #         sum = sum + i
 
 # print(sum)        
+
+
+# : Factorial
+
+# num = int(input("enter a number"))
+
+# fact = 1
+
+# for i in range(1,num+1):
+#     fact = i * fact
+
+
+# print(fact)    
+
+
+# Count Digits
+
+# int() → String ko integer mein convert karta hai.
+# str() → Number ko string mein convert karta hai.
+# float() → Number ko decimal value mein convert karta hai.
+# range() -> number ko enter karta hai
+# str() -> string ko enter karta hai 
+
+# num = input("enter a number")
+# count = 0
+
+# for i in str(num):
+#     count = 1 + count
+
+
+# print(count)
+
+# Reverse = 4321
+
+# num = input("enter a number")
+# reverse = ""
+
+# for i in num:
+#     reverse = i + reverse
+
+
+# print(reverse)    
+
+# prime number= 7
+
+# num = int(input("enter a number:"))
+
+# if num < 2:
+#     print("not a prime number")
+# else:
+#     for i in range(2,num):
+#         if num % i == 0:
+#             print("not a prime number")
+#             break
+#         else:
+#             print("prime number") 
+
+
+# num = int(input("Enter a number: "))
+
+# if num < 2:
+#     print("Not a prime number")
+# else:
+#     for i in range(2, num):
+#         if num % i == 0:
+#             print("Not a prime number")
+#             break
+#     else:
+#         print("Prime number")
+
+
+
+# while loop kya hota hai?
+# Definition: Python mein while loop tab tak code repeat karta hai jab tak condition True hoti hai.
+
+# i = 1
+# while i <= 5:
+#     print(i)
+#     i = i + 1
+
+# Reverse Counting
+
+# i = 10
+# while i >= 1:
+#     print(i)
+#     i = i - 1
+
+# while loop se 1 se 10 tak numbers ka sum calculate karo.
+
+# num = int(input("enter a number:"))
+# sum = 0
+# i = 1
+
+# while i <= 10:
+   
+#     sum = sum + i
+#     i = i + 1
+
+
+# print(sum)
+   
+   
+# Reverse a Number 
+
+# num = input("enter a number")
+
+# reverse = ""
+
+# for i in num:
+#     reverse = i + reverse
+
+# print(reverse)    
+
+# count the digits in a number
+
+# num = int(input("enter a number: "))
+# count = 0
+
+# while num > 0:
+#     count = 1 + count
+#     num = num // 10
+
+# print(count)    
+
+
+# Palindrome Number check karne ka code.
+
+# num = input("enter a number: ")
+# reverse = ""
+
+# for i in num:
+#     reverse = i + reverse
+
+# # print(reverse)
+
+# if num == reverse:
+#     print("palinrome number") 
+# else:
+#     print("not a palindrome number")       
