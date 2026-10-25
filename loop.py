@@ -235,3 +235,68 @@
 #     print("palinrome number") 
 # else:
 #     print("not a palindrome number")       
+
+
+
+# 1. break — loop ko stop karna
+# break loop ko turant terminate kar deta hai.
+
+# 2. continue — current iteration skip karna
+# continue current iteration ko skip karke next iteration par chala jata hai.
+
+# 10 tak numbers print karo, lekin 6 aate hi loop stop kar do.
+
+# for i in range(1,11):
+#     if i == 6:
+#         break
+#     print(i)
+
+# Even numbers skip karo
+
+# for i in range(1,11):
+#     if i % 2 == 0:
+     
+#         continue
+#     print(i)
+
+# 1 se 10 tak numbers print karo, lekin 7 aate hi loop stop kar do.
+
+# for i in range(1,11):
+#     if i == 7:
+#         break
+#     print(i)
+ 
+
+# 1 se 15 tak numbers print karo, lekin 3 aur 8 ko skip karna hai.
+
+# for i in range(1,16):
+#     if i == 3 or i == 8:
+#         continue
+#     print(i)
+# 
+
+# 1 se 20 tak numbers mein:
+# - Even numbers skip karo.
+# - Number 15 aate hi loop stop karo.
+
+
+# for i in range(1,21):
+#     if i % 2 == 0:
+#         continue
+#     if i == 15:
+#         break
+
+#     print(i)
+
+
+# 1 se 20 tak numbers print karo, lekin:
+# - Number 5 aate hi skip karo.
+# - Number 12 aate hi loop stop karo.
+# - continue aur break dono use karo.
+
+for i in range(1,21):
+    if i == 5:
+        continue
+    if i == 12:
+        break
+    print(i)
