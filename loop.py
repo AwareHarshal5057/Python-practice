@@ -294,9 +294,9 @@
 # - Number 12 aate hi loop stop karo.
 # - continue aur break dono use karo.
 
-for i in range(1,21):
-    if i == 5:
-        continue
-    if i == 12:
-        break
-    print(i)
+# for i in range(1,21):
+#     if i == 5:
+#         continue
+#     if i == 12:
+#         break
+#     print(i)
